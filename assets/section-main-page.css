@@ -1,0 +1,31 @@
+.page-title {
+  margin-top: 0;
+}
+
+.main-page-title {
+  margin-bottom: 3rem;
+}
+
+/* Pages heading center About Us - FAQ - Contact - Careers */
+#shopify-section-template--15729419550902__main > div > h1,
+#shopify-section-template--15729425449142__main > div > h1,
+#shopify-section-template--15253683503286__main > div > h1,
+#shopify-section-template--15762430853302__main > div > h1 {
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  .main-page-title {
+    margin-bottom: 4rem;
+  }
+}
+
+.page-placeholder-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.page-placeholder {
+  width: 52.5rem;
+  height: 52.5rem;
+}
