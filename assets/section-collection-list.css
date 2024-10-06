@@ -7,15 +7,14 @@
 }
 .media.media--adapt.media--hover-effect.overflow-hidden {
   background-color: #fff0;
+  box-shadow: 0px 0px 12px #0000002b;
+  border-radius: 15px;
 }
 .card--media .card__text-spacing {
   display: none;
 }
 div.card__media-spacer {
-  padding: 0 1.5rem;
-}
-.media.media--adapt.media--hover-effect.overflow-hidden {
-  box-shadow: 0px 0px 12px #0000002b;
+  padding: 1.5rem;
 }
 /* Aligns collection page headings */
 #shopify-section-template--15253683732662__main > div > h1 {
