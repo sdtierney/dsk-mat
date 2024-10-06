@@ -2362,7 +2362,7 @@ main#MainContent {
 }
 
 /* Collection pages */
-#h1.title.title--primary {
+h1.title.title--primary {
   text-align: center;
 }
 
