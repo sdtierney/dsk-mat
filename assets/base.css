@@ -2354,7 +2354,15 @@ details-disclosure > details {
   }
 }
 
+/* S.T Edits */
+
+/* All pages */
 main#MainContent {
   margin-top: 9rem;
+}
+
+/* Collection pages */
+#h1.title.title--primary {
+  text-align: center;
 }
 
