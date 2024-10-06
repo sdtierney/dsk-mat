@@ -16,8 +16,8 @@
 div.card__media-spacer {
   padding: 1.5rem;
 }
-a.card.animate-arrow.link.card--media.card--stretch.card-colored.color-background-1 {
-  background-color: rgba(255, 255, 255, 0);
+.card--stretch.card-colored.color-background-1 {
+  background-color: rgba(255, 255, 255, 0) !important;
 }
 /* Aligns collection page headings */
 #shopify-section-template--15253683732662__main > div > h1 {
