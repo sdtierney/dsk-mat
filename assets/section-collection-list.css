@@ -23,7 +23,8 @@ div.card__media-spacer {
 .slider-buttons.no-js-hidden.medium-hide {
   display: none;
 }
-.grid {
+/* Collection page only */
+#shopify-section-template--17419266130102__main > div > ul {
   justify-content: center;
 }
 
