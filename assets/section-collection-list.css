@@ -6,7 +6,7 @@
   font-size: 26px;
 }
 .media.media--adapt.media--hover-effect.overflow-hidden {
-  background-color: #fff0;
+  background-color: rgba(255, 255, 255, 0);
   box-shadow: 0px 0px 12px #0000002b;
   border-radius: 15px;
 }
