@@ -112,6 +112,9 @@ div.card__media-spacer {
   padding: 10px;
   border: none;
 }
+.card--light-border:hover {
+  border: none;
+}
 .collection-list__item:only-child .media {
   height: 35rem;
 }
