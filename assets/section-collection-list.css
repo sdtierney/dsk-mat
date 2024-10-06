@@ -20,7 +20,9 @@ div.card__media-spacer {
   background: none;
 }
 
-
+.slider-buttons.no-js-hidden.medium-hide {
+  display: none;
+}
 
 @media screen and (max-width: 749px) {
   .collage-section + .collection-list-section .no-heading.no-mobile-link {
