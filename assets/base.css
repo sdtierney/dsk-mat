@@ -860,7 +860,7 @@ summary::-webkit-details-marker {
 
 .title-wrapper-with-link {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
   gap: 1rem;
   margin: 4rem 0 3rem;
@@ -2352,5 +2352,9 @@ details-disclosure > details {
   .icon-close-small path {
     stroke: CanvasText;
   }
+}
+
+#mainContent {
+  margin-top: 9rem;
 }
 
