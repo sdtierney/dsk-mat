@@ -628,15 +628,6 @@ hr {
   margin: 5rem 0;
 }
 
-main#MainContent {
-  margin-top: 9rem;
-}
-
-/* ADDED ST | Aligns hero banner to top of browser window */
-div#shopify-section-template--15253683667126__f3fcd727-3ad3-4628-90bb-cc039b622522 {
-  margin-top: -9rem;
-}
-
 @media screen and (min-width: 750px) {
   hr {
     margin: 7rem 0;
