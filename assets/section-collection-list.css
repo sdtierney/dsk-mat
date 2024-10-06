@@ -31,17 +31,8 @@ div.card__media-spacer {
   .collage-section + .collection-list-section .no-heading:not(.no-mobile-link) {
     margin-top: -1rem;
   }
-  /* Hide slider buttons */
-  #shopify-section-template--15253683667126__3de700fa-304f-4bfe-a235-536105ba8f5a > div > slider-component > div > div {
-    display: none;
-  }
-  /* Vertically centers slider arrow buttons */
-  #shopify-section-template--15253683667126__3de700fa-304f-4bfe-a235-536105ba8f5a > div > slider-component > div {
-    height: 0px;
-    padding-bottom: 18px;
-  }
   /* Indents product collection cards so 2nd card can be seen */
-  li#Slide-template--15253683667126__3de700fa-304f-4bfe-a235-536105ba8f5a-1, li#Slide-template--15253683667126__3de700fa-304f-4bfe-a235-536105ba8f5a-2 {
+  .collection-list__item.grid__item.slider__slide {
     padding-left: 0;
   }
   ul.collection-list.grid.grid--1-col.grid--3-col-tablet {
