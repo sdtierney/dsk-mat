@@ -113,7 +113,7 @@ div.card__media-spacer {
   border: none;
 }
 .card--light-border:hover {
-  border: none;
+  border: none !important;
 }
 .collection-list__item:only-child .media {
   height: 35rem;
