@@ -19,55 +19,8 @@ div.card__media-spacer {
 .card--stretch.card-colored.color-background-1 {
   background: none;
 }
-/* Aligns collection page headings */
-#shopify-section-template--15253683732662__main > div > h1 {
-  text-align: center;
-}
-/* Aligns "Shop by desk mat type" heading */
-#shopify-section-template--15253683667126__3de700fa-304f-4bfe-a235-536105ba8f5a > div > div {
-  justify-content: center;
-}
-/* margin below hero banner */
-#shopify-section-template--15253683667126__3de700fa-304f-4bfe-a235-536105ba8f5a {
-  margin-top: 3.5rem;
-}
-/* Removes grey background from Pro card */
-#Slide-template--15253683667126__3de700fa-304f-4bfe-a235-536105ba8f5a-1 > a > div {
-  background: none;
-  padding: 15px 15px 15px 0;
-}
-/* Rounds corners of Pro card */
-#Slide-template--15253683667126__3de700fa-304f-4bfe-a235-536105ba8f5a-1 > a > div > div:nth-child(1) > div {
-  background: none;
-  border-radius: 15px;
-}
-/* Removes grey background from Lite card */
-#Slide-template--15253683667126__3de700fa-304f-4bfe-a235-536105ba8f5a-2 > a > div {
-  padding: 15px 0 15px 15px;
-  background-color: #fff;
-  border-color: #fff;
-}
-/* Rounds corners of Lite card */
-#Slide-template--15253683667126__3de700fa-304f-4bfe-a235-536105ba8f5a-2 > a > div > div:nth-child(1) > div {
-  border-radius: 15px;
-}
-/* Rounds corners of category cards on Shop All page */
-#shopify-section-template--15253683732662__main > div > ul > li:nth-child(1) > a > div > div:nth-child(1) > div,
-#shopify-section-template--15253683732662__main > div > ul > li:nth-child(2) > a > div > div:nth-child(1) > div,
-#shopify-section-template--15253683732662__main > div > ul > li:nth-child(1) > a,
-#shopify-section-template--15253683732662__main > div > ul > li:nth-child(2) > a {
-  border-radius: 15px;
-}
-/* Decrease width of cards on collection pages page */
-#shopify-section-template--15253683732662__main > .page-width {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-/* Width of card container on collection pages */
-ul.collection-list.grid.grid--1-col.grid--3-col-tablet {
-  width: 90%;
-}
+
+
 
 @media screen and (max-width: 749px) {
   .collage-section + .collection-list-section .no-heading.no-mobile-link {
