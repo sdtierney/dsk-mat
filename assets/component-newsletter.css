@@ -6,7 +6,7 @@
   width: 100%;
   position: relative;
 }
-.newsletter-form.field__input {
+.newsletter-form__field-wrapper .field__input {
   border-radius: 100px;
 }
 
