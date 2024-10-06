@@ -2366,3 +2366,7 @@ h1.title--primary {
   text-align: center;
 }
 
+/* FAQ + contact page */
+h1.main-page-title.page-title.h0 {
+  text-align: center;
+}
