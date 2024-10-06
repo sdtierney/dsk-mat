@@ -6,6 +6,9 @@
   width: 100%;
   position: relative;
 }
+.newsletter-form.field__input {
+  border-radius: 100px;
+}
 
 @media screen and (min-width: 750px) {
   .newsletter-form {
