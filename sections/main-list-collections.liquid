@@ -1,23 +1,15 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
 
-<div class="page-width {{ section.settings.custom_class | escape }}">
+<div class="page-width">
   <h1 class="title title--primary">{{ section.settings.title | escape }}</h1>
 
   {%- liquid
     case section.settings.sort
-      when 'products_high'
+      when 'products_high' or 'products_low'
         assign collections = collections | sort: 'all_products_count'
-      when 'products_low'
-        assign collections = collections | sort: 'all_products_count'
-      when 'date'
+      when 'date' or 'date_reversed'
         assign collections = collections | sort: 'published_at'
-      when 'date_reversed'
-        assign collections = collections | sort: 'published_at'
-      when 'alphabetical'
-        assign collections = collections | sort: 'title'
-      when 'alphabetical_reversed'
-        assign collections = collections | sort: 'title'
     endcase
 
     if section.settings.sort == 'products_high' or section.settings.sort == 'date_reversed' or section.settings.sort == 'alphabetical_reversed'
@@ -177,13 +169,6 @@
       "id": "image_padding",
       "default": false,
       "label": "t:sections.main-list-collections.settings.image_padding.label"
-    },
-    {
-      "type": "text",
-      "id": "custom_class",
-      "label": "Custom CSS Class",
-      "default": "",
-      "info": "Add a custom class name to this section."
     }
   ]
 }
