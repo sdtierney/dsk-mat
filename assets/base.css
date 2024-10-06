@@ -2355,6 +2355,6 @@ details-disclosure > details {
 }
 
 #main#mainContent {
-  margin-top: 9rem;
+  margin-top: 9rem !important;
 }
 
