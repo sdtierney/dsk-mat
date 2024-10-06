@@ -16,7 +16,7 @@
 div.card__media-spacer {
   padding: 1.5rem;
 }
-.card--stretch.card-colored.color-background-1 {
+a.card.animate-arrow.link.card--media.card--stretch.card-colored.color-background-1 {
   background-color: rgba(255, 255, 255, 0);
 }
 /* Aligns collection page headings */
