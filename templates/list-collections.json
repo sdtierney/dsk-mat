@@ -29,7 +29,7 @@
     "main": {
       "type": "main-list-collections",
       "custom_css": [
-        "@media (max-width: 749px) {h1.title.title--primary {margin: 0 0 2rem; }}"
+
       ],
       "settings": {
         "title": "Shop by Mat Type",
