@@ -27,6 +27,14 @@ div.card__media-spacer {
 #shopify-section-template--17419266130102__main > div > ul {
   justify-content: center;
 }
+.page-width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-width ul.collection-list.grid.grid--1-col.grid--3-col-tablet {
+  width: 1600px;
+}
 
 @media screen and (max-width: 749px) {
   .collage-section + .collection-list-section .no-heading.no-mobile-link {
