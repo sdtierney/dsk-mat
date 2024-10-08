@@ -25,14 +25,7 @@ div.card__media-spacer {
 }
 /* Collection page only */
 #shopify-section-template--17419266130102__main > div > ul {
-  width: 1600px;
-  max-width: 1600px;
   justify-content: center;
-}
-#shopify-section-template--17419266130102__main > .page-width {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 @media screen and (max-width: 749px) {
